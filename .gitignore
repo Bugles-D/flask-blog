@@ -1,0 +1,22 @@
+# Python 虚拟环境 （太大了）
+venv/
+env/
+.env/
+
+# python 编译缓存
+__pycache__/
+*.pyc
+
+# 数据库文件（通常本地测试的数据库不需要上传到云端）
+*.db
+*.sqlite
+
+# 环境变量或隐私配置（非常重要，防止数据库密码泄露）
+.env
+
+# pycharm 自己的配置文件
+.idea/
+
+# 操作系统生成的垃圾文件
+.DS_Store
+Thumbs.db
